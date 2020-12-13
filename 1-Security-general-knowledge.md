@@ -47,6 +47,11 @@ Your code application and the imported libraries can contain server side or clie
 ### Vulnerability score:
 
 CVSS: [Common Vulnerability Scoring System](https://www.first.org/cvss/v3.1/specification-document)
+
+> The Common Vulnerability Scoring System (CVSS) is a free and open industry standard for assessing the severity of computer system security vulnerabilities. CVSS attempts to assign severity scores to vulnerabilities, allowing responders to prioritize responses and resources according to threat. Scores are calculated based on a formula that depends on several metrics that approximate ease of exploit and the impact of exploit. Scores range from 0 to 10, with 10 being the most severe.
+>
+> [_Wikipedia: Common Vulnerability Scoring System_](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System)</cite>
+
 <span style="color:blue"><b>None/Information: 0.0 </b></span>
 <span style="color:green"><b>Low: 0.1 - 3.9 </b></span>
 <span style="color:orange"><b>Medium: 4.0 - 6.9 </b></span>
@@ -70,7 +75,7 @@ CVSS: [Common Vulnerability Scoring System](https://www.first.org/cvss/v3.1/spec
 - File Inclusion
 
 Vulnerabilities types can be combined.  
-For example a buffer overflow can gain a higher privilege and execute malicious code.
+For example a buffer overflow can permit to gain a higher privilege and execute malicious code by an attacker.
 
 ## Audits
 
