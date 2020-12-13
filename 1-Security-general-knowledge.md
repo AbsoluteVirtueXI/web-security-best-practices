@@ -52,11 +52,11 @@ CVSS: [Common Vulnerability Scoring System](https://www.first.org/cvss/v3.1/spec
 >
 > [_Wikipedia: Common Vulnerability Scoring System_](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System)</cite>
 
-<span style="color:blue"><b>None/Information: 0.0 </b></span>  
-<span style="color:green"><b>Low: 0.1 - 3.9 </b></span>  
-<span style="color:orange"><b>Medium: 4.0 - 6.9 </b></span>  
-<span style="color:#e77f00"><b>High: 7.0 - 8.9 </b></span>  
-<span style="color:red"><b>Critical: 9.0 - 10.0 </b></span>
+**None/Information**: 0.0  
+**Low**: 0.1 - 3.9  
+**Medium**: 4.0 - 6.9  
+**High**: 7.0 - 8.9  
+**Critical**: 9.0 - 10.0
 
 ### Vulnerability type(s):
 
@@ -75,7 +75,7 @@ CVSS: [Common Vulnerability Scoring System](https://www.first.org/cvss/v3.1/spec
 - File Inclusion
 
 Vulnerabilities types can be combined.  
-For example a buffer overflow can permit to gain a higher privilege and execute malicious code by an attacker.
+For example a buffer overflow on a service can permit to execute code and gain a higher privilege on the remote host.
 
 ## Audits
 
