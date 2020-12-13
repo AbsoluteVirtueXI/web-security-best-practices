@@ -19,12 +19,16 @@
 
 ### Your code / libraries used
 
-- injection: SQL Injection, NOSQL Injection, LDAP Injection,
-- authentification
-- Data exposure
-- Access control
+Your code application and the imported libraries can contain server side or client side vulnerabilities
+
+- injection: SQL Injection, NOSQL Injection, LDAP Injection
+- Access control bypass
 - Cross-Site Scripting: XSS
 - Cross-site request forgery: CSRF
+- XML external entity injection: XXE
+- Business logic vulnerabilities
+- Authentification bypass
+- Information/Data exposure
 
 ### Third parties
 
@@ -34,9 +38,39 @@
 
 ### People
 
-- employees with high privileges in the information system
+- employees with high privileges in the information system or in the hierarchy
 - Vulnerable workstations
-- Social engineering: Facebook, Linkedin, email, phone
+- Social engineering: Social media (Facebook, Instagram, Linkedin,), email, phone
+
+## Security threats
+
+### Vulnerability score:
+
+CVSS: [Common Vulnerability Scoring System](https://www.first.org/cvss/v3.1/specification-document)
+<span style="color:blue"><b>None/Information: 0.0 </b></span>
+<span style="color:green"><b>Low: 0.1 - 3.9 </b></span>
+<span style="color:orange"><b>Medium: 4.0 - 6.9 </b></span>
+<span style="color:#e77f00"><b>High: 7.0 - 8.9 </b></span>
+<span style="color:red"><b>Critical: 9.0 - 10.0 </b></span>
+
+### Vulnerability type(s):
+
+- DoS: Denial of service
+- Code Execution
+- Overflow
+- Memory Corruption
+- SQL Injection
+- XSS
+- CSRF
+- Directory Traversal
+- Http Response Splitting
+- Bypass something
+- Gain Information
+- Gain privileges
+- File Inclusion
+
+Vulnerabilities types can be combined.  
+For example a buffer overflow can gain a higher privilege and execute malicious code.
 
 ## Audits
 
@@ -46,14 +80,18 @@
 
 ## Penetration testing
 
-### White box
+### White box penetration testing
 
-### Blackbox
+Auditors have full access
+
+### Blackbox penetration testing
+
+Auditors have no
 
 ### Process
 
 - information gathering
-- scanning & network discovery
+- scanning & network/service discovery
 - exploitation
 - escalation privilege
 - clearing tracks and maintaining control: R.A.T. & backdoor
@@ -73,16 +111,6 @@
 ### website
 
 ## Code review
-
-## Flaws
-
-### Severity
-
-Info:
-Low:
-Medium:
-High:
-Critical:
 
 ## Exploit database and notification
 
@@ -114,6 +142,9 @@ web app Top 10 flaws
 
 ### Metasploit
 
-### R.A.T: remote access control
+### R.A.T: Remote Access Trojan
 
 ### Kali Linux
+
+Kali Linux: [Official website](https://www.kali.org/)
+An operating system based on Debian containing a lot, maybe too many, security tools classified by theme.
