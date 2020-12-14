@@ -4,6 +4,12 @@
 
 ### system hardening
 
+Os hardening with `lynis`
+
+### firewall
+
+iptables on linux
+
 ### permissions
 
 ## Services
