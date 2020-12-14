@@ -46,10 +46,10 @@ Your code application and the imported libraries can contain server side or clie
 
 ### Vulnerability identification: Common Vulnerabilities and Exposures ID
 
-All vulnerabilities are identified by a `CVE` id.
+All vulnerabilities are identified by a `CVE` id.  
 https://cve.mitre.org references all known CVE.  
 https://nvd.nist.gov can give additional information about a CVE.  
-(CVE-2020-28037)[https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28037] is the CVE-ID of a wordpress vulnerability which might allow an attacker to perform a new installation, leading to remote code execution (as well as a denial of service for the old installation).
+[CVE-2020-28037](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28037) is the CVE-ID of a wordpress vulnerability which might allow an attacker to perform a new installation, leading to remote code execution (as well as a denial of service for the old installation).
 
 ### Vulnerability score:
 
@@ -86,7 +86,7 @@ For example a buffer overflow on a service can permit to execute code and gain a
 
 ### Web app vulnerabilities
 
-OWASP: [The Open Web Application Security Project](https://owasp.org/)
+OWASP: [The Open Web Application Security Project](https://owasp.org/)  
 Each year a [TOP 10 of most critical security risks](https://owasp.org/www-project-top-ten/) to web applications is released by the OWASP foundation.
 
 ## Finding vulnerabilities
@@ -123,7 +123,7 @@ Often a vulnerability scanning is performed automatically and periodically.
 Penetration testing is a manual process.  
 The objective is not to find all known vulnerabilities in an information system, but to find a way to break into the system.  
 While vulnerability assessments find security threats and report these flaws, penetration testings exploit these flaws for gaining access.  
-Vulnerability exploitations can be made with the [Metasploit framework](https://www.metasploit.com/) or by exploit code found for example on (ExploitDB)[https://www.exploit-db.com]
+Vulnerability exploitations can be made with the [Metasploit framework](https://www.metasploit.com/) or by exploit code found for example on [ExploitDB](https://www.exploit-db.com)
 
 #### White-box penetration testing
 
@@ -151,9 +151,9 @@ It should contain:
 - vulnerabilities found
 - severity score of these vulnerabilities
 - exploitation path if it is a penetration test
-- recommendation, remediation and how to fix issues
+- recommendations, remediations and how to fix issues
 
-example of a penetration test report [here](https://static1.squarespace.com/static/589316f3cd0f68e6bd715655/t/5d7ce2ed69433d1c3e3f7021/1568465657128/SAMPLE+Security+Testing+Findings.pdf)
+Example of a penetration test report [here](https://static1.squarespace.com/static/589316f3cd0f68e6bd715655/t/5d7ce2ed69433d1c3e3f7021/1568465657128/SAMPLE+Security+Testing+Findings.pdf)
 
 ## Patching and fixing issues
 
@@ -207,6 +207,6 @@ https://en.0day.today/
 
 ## tools
 
-A list of available tools classified by security field: https://tools.kali.org/tools-listing
-They are all installed on Kali Linux: [Official website](https://www.kali.org/)
+A list of available tools classified by security field: https://tools.kali.org/tools-listing  
+They are all installed on Kali Linux: [Official website](https://www.kali.org/)  
 Kali Linux is an operating system based on Debian containing a lot, maybe too many, security tools.
