@@ -25,7 +25,7 @@ apt-get update && apt-get upgrade
 
 ### Firewall
 
-`ufw`: https://help.ubuntu.com/community/UFW
+`ufw`: https://help.ubuntu.com/community/UFW  
 `iptables`: https://doc.ubuntu-fr.org/iptables
 
 ### Find all activated and running services
@@ -67,6 +67,10 @@ sudo apt autoremove
 ### Use ssh for remote connection
 
 https://doc.ubuntu-fr.org/ssh
+
+### Web server security
+
+`nginx`
 
 ### Use SSL certificate for web server OWASP 3
 
