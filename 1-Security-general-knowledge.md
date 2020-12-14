@@ -163,7 +163,19 @@ If the issues come from your code, you will have to fix this manually by yoursel
 
 ## Vulnerabilities and Exploits databases
 
-Known vulnerabilities and exploits are referenced on online databases
+Known vulnerabilities and exploits are referenced on online databases or referenced by the vendor.
+
+### Vendors Change logs and security advisories or github issues
+
+Nginx web server:
+
+- change logs: https://nginx.org/en/CHANGES
+- security advisories: wordpress: https://nginx.org/en/security_advisories.html
+
+wordpress:
+
+- https://codex.wordpress.org/WordPress_Versions
+- https://wordpress.org/news/category/security/
 
 ### CVE: common vulnerabilities and exposures
 
